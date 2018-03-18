@@ -38,7 +38,6 @@ header a{
 
 .banner {
 	padding: 192px 12% 192px 7%;
-	#Light transformation between two colors
 	background: linear-gradient(to top left, #078aa4, #19b4c6);
 	font-size: 30px;
 	color: #a8d7e0;
@@ -46,7 +45,7 @@ header a{
 
 .banner h2{
 	font-size: 70px;
-	color: #fff;
+	color: #ffffff;
 }
 
 .link-box{
