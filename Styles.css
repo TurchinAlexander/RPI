@@ -32,18 +32,18 @@ header a{
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-.mini-menu, .mobile-menu {
+.without-menu, .hide-menu {
 	display: none;
 }
 
-.banner {
+.resource {
 	padding: 192px 12% 192px 7%;
 	background: linear-gradient(to top left, #078aa4, #19b4c6);
 	font-size: 30px;
 	color: #a8d7e0;
 }
 
-.banner h2{
+.resource h2{
 	font-size: 70px;
 	color: #ffffff;
 }
@@ -53,7 +53,7 @@ header a{
 	height: 25vw;
 }
 
-#text-left{
+.text-left{
 	width: 75%;
 	background-color: #462660;
 	justify-content: center;
@@ -62,7 +62,7 @@ header a{
 	color: #756b83;
 }
 
-#link-right{
+.link-right{
 	width: 25%;
 	background-color: #bc3183;
 	justify-content: center;
@@ -76,7 +76,7 @@ header a{
 	color: #64586e; 
 }
 
-.pic-block {
+.blockpic {
     display: flex;
 	flex-flow: row;
 	padding: 0;
@@ -84,16 +84,16 @@ header a{
 	list-style-type: none; 
 }
 
-.pic-block img {
+.blockpic img {
 	display: inline;
 	margin: 0;
 }
 
-.pic-block-pic{
+.blockpic-pic{
 	width: 33.333%;
 }
 
-.pic-block-pic img{
+.blockpic-pic img{
 	width: 100%; 
 	height: auto;
 }
@@ -110,23 +110,23 @@ header a{
 	width: 10% !important; 
 }
 
-.info-text {
+.info {
 	background-color: #ebebeb;
 	padding: 40px;
 }
 
-.info-text  h1 {
+.info  h1 {
 	padding-left: 15px;
 	font-size: 30pt;
 	color: #088ca5;
 }
 
-.info-text-inner {
+.info-position{
 	display: flex;
 	flex-flow: row wrap;
 }
 
-.info-text-inner p {
+.info-position p {
 	color: #515151;
 	flex: 1 1 400px;
 	text-align: justify;

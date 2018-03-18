@@ -10,13 +10,13 @@
 		display: none;
 	}
 
-	.mobile-menu {
+	.without-menu {
 		display: block;
 		color: #ebebeb;
 		margin: 27px 5vw;
 	}
 
-	.mini-menu {
+	.hide-menu {
 		display: block;
 		padding: 7px 30px 7px 30px;
 		font-size: 50px;
@@ -24,7 +24,7 @@
 		background-color: #202529;
 	}
 
-	.pic-block{
+	.blockpic{
 		display: flex;
 		flex-flow: column nowrap;
 	}
@@ -36,16 +36,16 @@
 
 	}
 
-	.pic-block-pic{
+	.blockpic-pic{
 		width: 100%;
 		height: 100%;
 	}
 
-	.banner h2{
+	.resource h2{
 		font-size: 30px !important;
 	}
 
-	.banner{
+	.resource{
 		padding: 100px 10% 100px 5%;
 		font-size: 18px;
 	}
@@ -54,12 +54,12 @@
 		font-size: 18px;
 	}
 
-	.info-text h1 {
+	.info h1 {
 		font-size: 23pt;
 		color: #088ca5;
 	}
 
-	.hide-under-640 {
+	.hide-after-640 {
 		display: none;
 	}
 }

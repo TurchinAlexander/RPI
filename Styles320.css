@@ -4,12 +4,12 @@
 		height: 40px;
 	}
 
-	.mobile-menu {
+	.without-menu {
 		color: #ebebeb;
 		margin: 1rem 5vw;
 	}
 	
-	.mini-menu {
+	.hide-menu {
 		padding: 2px 12px;
 		font-size: 30px;
 	}
@@ -20,21 +20,21 @@
 		padding-bottom: 40%;
 	}
 
-	.pic-block-pic{
+	.blockpic-pic{
 		width: 100%;
 		height: 100%;
 	}
 
-	.banner h2{
+	.resource h2{
 		font-size: 16px !important;
 	}
 
-	.banner{
+	.resource{
 		padding: 50px 15% 50px 10%;
 		font-size: 11px;
 	}
 
-	.info-text {
+	.info {
 		padding-top: 10px;
 	}
 
@@ -42,18 +42,18 @@
 		font-size: 11px;
 	}
 
-	.info-text  h1 {
+	.info  h1 {
 		padding: 8px;
 		font-size: 16pt;
 	}
 
-	.info-text-inner p {
+	.info-position p {
 		margin-left: 8px;
 		margin-right: 8px;
 		font-size: 14px;
 	}
 
-	.hide-under-640 {
+	.hide-after-640 {
 		display: none;
 	}
 }
