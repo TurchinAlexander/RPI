@@ -23,10 +23,28 @@
 		color: #ebebeb;
 		background-color: #202529;
 	}
+	
+	.resource{
+		padding: 100px 10% 100px 5%;
+		font-size: 18px;
+	}
+		
+	.resource h2{
+		font-size: 30px !important;
+	}
 
+	.link-box h2{
+		font-size: 18px;
+	}
+	
 	.blockpic{
 		display: flex;
 		flex-flow: column nowrap;
+	}
+	
+	.blockpic-pic{
+		width: 100%;
+		height: 100%;
 	}
 	
 	.arrowPic-box{
@@ -34,24 +52,6 @@
 		padding-top: 40%;
 		padding-bottom: 40%; 
 
-	}
-
-	.blockpic-pic{
-		width: 100%;
-		height: 100%;
-	}
-
-	.resource h2{
-		font-size: 30px !important;
-	}
-
-	.resource{
-		padding: 100px 10% 100px 5%;
-		font-size: 18px;
-	}
-
-	.link-box h2{
-		font-size: 18px;
 	}
 
 	.info h1 {
